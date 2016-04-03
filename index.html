@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务二十九：表单（二）多个表单项的动态校验</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <div class="input-group">
+        <label for="nickname">名&nbsp;&nbsp;称</label>
+        <input type="text" name="nikcname" class="input" id="nickname">
+        <span id="nickname-warn"></span>
+    </div>
+    <div class="input-group">
+        <label for="password">密&nbsp;&nbsp;码</label>
+        <input type="text" name="password" class="input" id="password">
+        <span id="password-warn"></span>
+    </div>
+    <div class="input-group">
+        <label for="re-password">密码确认</label>
+        <input type="text" name="re-password" class="input" id="re-password">
+        <span id="re-password-warn"></span>
+    </div>
+    <div class="input-group">
+        <label for="email">邮&nbsp;&nbsp;箱</label>
+        <input type="text" name="email" class="input" id="email">
+        <span id="email-warn"></span>
+    </div>
+    <div class="input-group">
+        <label for="phone">手&nbsp;&nbsp;机</label>
+        <input type="text" name="phone" class="input" id="phone">
+        <span id="phone-warn"></span>
+    </div>
+    <button id="submit">提交</button>
+    <script src="./app.js"></script>
+</body>
+</html>
